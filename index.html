@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang "en-us">
+
+<!-- My css style sheet -->
+<link rel="stylesheet" href="assets/css/style.css">
+
+<head>
+    <!-- Proportional resizing for viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <Title>Hangman</Title>
+
+    <h1>Classic Hip-Hop Albums </h1>
+
+    <style>
+
+     .container{
+         background-image: url(assets/images/dj.jpg);
+         background-position-x: -1500px;
+         background-position-y: -830px;
+         border: 2px double #326767;
+         width: 750px;
+         height: 750px;
+         margin: 10px auto;
+         position: relative;
+         top: 50px;
+        }
+
+        body{
+            background-image: url(assets/images/df.jpg);
+
+            background-position-y: 1100px;
+        }
+
+    </style>
+
+</head>
+
+<body>
+
+<!-- generic div for placeholder -->
+    <!-- <div id = "placeholder"></div>-->
+<div class = "container">
+
+    <div class = "score-container">
+        <div class = "scoreboard">Guesses Left: <span id = "guesses-left">7</span></div>
+        <div class = "scoreboard"> Games Won: <span id = "games-won">0</span></div>
+        <div class = "scoreboard"> Games Lost: <span id = "games-lost">0</span></div>
+        <div class = "bad-guesses">Guesses: <span id = "guesses"></span></div>
+    </div>
+
+    <div id = "photo-div" class = "photo-div"></div>
+
+
+    <div class = "bigger-field">
+        <div id = "answer-field"></div>
+    </div>
+
+
+</div>
+
+
+ <!-- Links the js page. js code is there    -->
+ <script type="text/javascript" src = "./assets/javascript/game.js">
+ </script>
+
+
+</body>
+
+
+</html>

@@ -1,0 +1,113 @@
+div{
+    padding         : 10px;
+    padding-top     : 10px;
+    margin          : 10px;
+}
+
+#answer-field{
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-content: center; */
+    /* align-items: center; */
+    background-color: #326767;
+    height: 70px;
+    width: auto;
+    margin: auto;
+    display: inline-block;
+    box-shadow      : 1px 1px 5px -1px #000;
+}
+
+.bigger-field{
+    /* display: flex; */
+    /* justify-content: center; */
+    /* align-items:center; */
+    width: initial;
+    background-color: #fcc100;
+    margin: auto;
+    position: absolute;
+    align-content: center;
+    top:650px;
+    /* flex-grow: 1 ; */
+}
+.scoreboard{
+    font-family     : Arial;
+    text-align      : center;
+    font-size       : 12px;
+    width           : 95px;
+    height          : 15px;
+    background      : #326767;
+    color           : white;
+    border-bottom   : 1px solid #000;
+    box-shadow      : 1px 1px 5px -1px #000;
+    float           : none; 
+    margin          : 7px;
+
+}
+
+.bad-guesses{
+
+    font-family     : Arial;
+    text-align      : left;
+    font-size       : 12px;
+    width           : 95px;
+    height          : 50px;
+    background      : #326767;
+    border-bottom   : 1px solid #000;
+    box-shadow      : 1px 1px 5px -1px #000;
+    color           : white;
+    float           : none;
+    margin          : 7px;
+
+}
+
+.tiles {
+    font-family     : Arial;
+    text-align      : center;
+    width           : 25px;
+    height          : 30px;
+    background      :white;  
+    border-bottom   : 1px solid #000;
+    box-shadow      : 1px 1px 5px -1px #000;
+    display         : inline-block;
+    color           : #326767;
+    
+}
+
+h1{
+    color           : #326767;
+    text-align: center;
+    background-color: white;
+    width: 600px;
+    height: 40px;
+    margin: auto;
+    border: 2px solid #326767;
+    position: relative;
+    top: 20px;
+    right: 0px;
+}
+
+
+.photo-div{
+    border          : 1px double #b1c9c9;
+    max-height: auto;
+    max-width: 500px;
+    float: right;
+    background-color: #562f00;
+    border: 2px solid #fcc100;
+
+}
+
+.score-container{
+    border          : 1px double #b1c9c9;
+    width           : 130px;
+    padding: 15px;
+    float: left;
+    background-color: white;
+    border: 2px double #326767;
+
+}
+
+img{
+    max-width       :300px;
+    max-height      : 320px;
+}
